@@ -1,0 +1,676 @@
+*{
+    margin: 0px;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: cursive;
+
+    background: url(Fotos/bc.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+
+    #container{
+        width: 100%;
+        margin: 0% auto;
+    }
+
+    #container {
+
+
+    }
+
+    header{
+
+        background: rgba(0, 0, 0, 0.527);
+        font-weight: bolder;
+
+        text-align: center;
+        font-size: 40px;
+        color: rgb(188, 116, 255);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        height: 350px;
+        line-height: 150px;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+    }
+
+    .intro1 {
+
+        height: 300px;
+        background: url(Fotos/Background.jpg);
+ 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        text-align: center;
+        color: rgb(246, 235, 255);
+        font-weight: bold;
+        font-size: 26px;
+
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+    }
+
+    .article1 {
+
+        height: 450px;
+        background: url(Fotos/Background.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        color: rgb(255, 248, 248);
+            
+    }  
+
+    .start {
+
+        background: url(Fotos/backgroundcats.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: black;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        height: 250px;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        text-align: center;
+        font-size: 36px;
+        line-height: 100px;
+
+    }
+
+    .text1 {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        height: 200px;
+        text-align: center;
+        line-height: 20px;
+        color: white;
+        margin: 0px;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        font-size: 24px;
+        font-weight: bold;
+        text-decoration-line: underline;
+
+        background: url(Fotos/backfroundmoon2.jpg);
+
+    }
+
+    #images{
+        background: url(Fotos/background2.jpg);
+   
+        color: black;
+        height: 500px;
+        margin: auto; 
+        align-items: center;
+        text-align: center;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+
+
+
+
+
+        .img1{
+            width: 250px;
+            height: 450px;
+            border: 2px solid rgb(0, 0, 0);
+            margin-right: 100px;
+        }
+        .img2{
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+        .img3{
+            width: 250px;
+            height: 450px;
+            border: 2px solid rgb(0, 0, 0);
+        }
+
+    }
+
+    .subtext1 {
+
+        background: url(Fotos/Background.jpg);
+
+        color: white;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        height: 200px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .article2 {
+        
+        height: 700px;
+        background-color: black;
+        width: 100%;
+        color: rgb(255, 248, 248);
+            
+    }
+
+    .text2{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        height: 150px;
+        text-align: center;
+        line-height: 20px;
+        color: rgb(169, 109, 187);
+        margin: 0px;
+
+        font-size: 22px;
+        font-weight: bold;
+        background: url(Fotos/flor.jpg);
+        border-bottom: 4px solid rgb(252, 231, 231);
+    }
+
+    .images2 {
+
+        color: black;
+        height: 500px;
+        margin: auto; 
+        align-items: center;
+        text-align: center;
+        border-bottom: 4px solid rgb(0, 0, 0);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+    }
+
+    .gifcat1 {
+
+        width: 568px;
+        height: 500px;
+        margin-right: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+
+    .article3 {
+
+        height: 1000px;
+        background-color: black;
+        width: 100%;
+        color: white;
+
+    }
+
+    .text3 {
+
+        background: url(Fotos/lotskirby.jpg);
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        height: 250px;
+        text-align: center;
+        line-height: 30px;
+        color: rgb(100, 49, 92);
+        margin: 0px;
+        border-bottom: 4px solid rgb(252, 231, 231);
+        border-top: 4px solid rgb(252, 231, 231);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration-line: underline;
+
+
+
+    }
+
+    .images3 {
+
+        background: url(Fotos/kisses.jpg);
+    
+
+
+
+
+        color: black;
+        height: 550px;
+        margin: auto; 
+        align-items: center;
+        text-align: center;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .img5 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+        }
+
+        .img6 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+        }
+
+        .img7 {
+
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+        }
+    
+
+    }
+
+    .subtext2 {
+
+        background: url(Fotos/universe.gif);
+ 
+
+        color: rgb(220, 216, 240);
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        height: 250px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .article4 {
+
+        height: 1000px;
+        background: url(Fotos/florblack.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        color: white;
+
+    }
+
+   
+    .text4 {
+
+        background: url(Fotos/lotskirby.jpg);
+        width: 100%;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+
+        height: 300px;
+        text-align: center;
+        line-height: 30px;
+        color: rgb(100, 49, 92);
+        margin: 0px;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        font-size: 28px;
+        font-weight: bold;
+        text-decoration-line: underline;
+
+    }
+
+    .images4 {
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        color: black;
+        height: 550px;
+        margin: auto; 
+        align-items: center;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .img8 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+        }
+
+        .img9 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+        }
+
+        .img10 {
+
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+        }
+
+    }
+
+    .subtext3 {
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        color: rgb(255, 255, 255);
+        border-bottom: 4px solid rgb(252, 231, 231);
+        border-top: 2px solid rgb(71, 65, 65);
+
+        height: 150px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+
+
+
+    .article5 {
+
+        height: 200px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        width: 100%;
+        border-top: 4px solid rgb(252, 231, 231);
+        color: white;
+
+    }
+
+    .carta {
+
+        width: 100%;
+        background: url(Fotos/home.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        height: 200px;
+        text-align: center;
+        line-height: 30px;
+        color: rgb(100, 49, 92);
+        margin: 0px;
+        border-bottom: 4px solid rgb(252, 231, 231);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        font-size: 28px;
+        font-weight: bold;
+
+    
+
+    }
+
+    .article6 {
+
+        height: 1150px;
+        background: url(Fotos/universe1.jpg);
+  
+
+        width: 100%;
+        border-top: 4px solid rgb(252, 231, 231);
+        color: white;
+
+        .images5 {
+
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+    
+            color: black;
+            height: 550px;
+            margin: auto; 
+            align-items: center;
+            text-align: center;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+    
+            .img11 {
+                width: 250px;
+                height: 450px;
+                margin-right: 100px;
+                border: 4px solid black;
+            }
+    
+            .img12 {
+                width: 250px;
+                height: 450px;
+                margin-right: 100px;
+                border: 4px solid black;
+            }
+    
+            .img13 {
+    
+                width: 250px;
+                height: 450px;
+                margin-right: 100px;
+                border: 4px solid black;
+            }
+        }
+    
+        .images6 {
+    
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    
+    
+            color: black;
+            height: 550px;
+            margin: auto; 
+            align-items: center;
+            text-align: center;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+    
+            .img14 {
+                width: 250px;
+                height: 450px;
+                margin-right: 100px;
+                border: 4px solid black;
+            }
+    
+            .img15 {
+                width: 250px;
+                height: 450px;
+                margin-right: 100px;
+                border: 4px solid black;
+            }
+    
+            .img16 {
+    
+                width: 250px;
+                height: 450px;
+                margin-right: 100px;
+                border: 4px solid black;
+            }
+        }
+
+    }
+
+    .images5 {
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        color: black;
+        height: 550px;
+        margin: auto; 
+        align-items: center;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .img11 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 4px solid black;
+        }
+
+        .img12 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 4px solid black;
+        }
+
+        .img13 {
+
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 4px solid black;
+        }
+    }
+
+    .images6 {
+
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+        color: black;
+        height: 550px;
+        margin: auto; 
+        align-items: center;
+        text-align: center;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+
+        .img14 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 4px solid black;
+        }
+
+        .img15 {
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 4px solid black;
+        }
+
+        .img16 {
+
+            width: 250px;
+            height: 450px;
+            margin-right: 100px;
+            border: 4px solid black;
+        }
+    }
+
+   
+    
+
+    
+
+
+
+
+
+  
+    
+}
+
